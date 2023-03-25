@@ -15,6 +15,11 @@
 		0F13A78D29CF6B86009A8F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78B29CF6B86009A8F9F /* LaunchScreen.storyboard */; };
 		0F13A79529CF6E07009A8F9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A79429CF6E07009A8F9F /* Constants.swift */; };
 		0FCA700929CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */; };
+		0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA700B29CF845600AFEF52 /* Movie.swift */; };
+		0FCA701129CF9A0000AFEF52 /* Bottom-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */; };
+		0FCA701229CF9A0000AFEF52 /* Top-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */; };
+		0FCA701329CF9A0000AFEF52 /* Bottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */; };
+		0FCA701429CF9A0000AFEF52 /* Top-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,11 @@
 		0F13A78E29CF6B86009A8F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F13A79429CF6E07009A8F9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4"; sourceTree = "<group>"; };
+		0FCA700B29CF845600AFEF52 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bottom-Right.mp4"; path = "Clips/Bottom-Right.mp4"; sourceTree = SOURCE_ROOT; };
+		0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Top-Right.mp4"; path = "Clips/Top-Right.mp4"; sourceTree = SOURCE_ROOT; };
+		0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bottom-Left.mp4"; path = "Clips/Bottom-Left.mp4"; sourceTree = SOURCE_ROOT; };
+		0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Top-Left.mp4"; path = "Clips/Top-Left.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,7 @@
 		0F13A77F29CF6B84009A8F9F /* QunectFour */ = {
 			isa = PBXGroup;
 			children = (
+				0FCA700A29CF844C00AFEF52 /* Model */,
 				0F13A79429CF6E07009A8F9F /* Constants.swift */,
 				0F13A79829CF6E57009A8F9F /* Life Cycle */,
 				0F13A79729CF6E2C009A8F9F /* Controllers */,
@@ -67,6 +78,10 @@
 				0F13A78929CF6B86009A8F9F /* Assets.xcassets */,
 				0F13A78E29CF6B86009A8F9F /* Info.plist */,
 				0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */,
+				0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */,
+				0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */,
+				0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */,
+				0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */,
 			);
 			path = QunectFour;
 			sourceTree = "<group>";
@@ -95,6 +110,14 @@
 				0F13A78229CF6B84009A8F9F /* SceneDelegate.swift */,
 			);
 			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		0FCA700A29CF844C00AFEF52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA700B29CF845600AFEF52 /* Movie.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +180,11 @@
 			files = (
 				0F13A78D29CF6B86009A8F9F /* LaunchScreen.storyboard in Resources */,
 				0F13A78A29CF6B86009A8F9F /* Assets.xcassets in Resources */,
+				0FCA701229CF9A0000AFEF52 /* Top-Right.mp4 in Resources */,
 				0FCA700929CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 in Resources */,
+				0FCA701129CF9A0000AFEF52 /* Bottom-Right.mp4 in Resources */,
+				0FCA701329CF9A0000AFEF52 /* Bottom-Left.mp4 in Resources */,
+				0FCA701429CF9A0000AFEF52 /* Top-Left.mp4 in Resources */,
 				0F13A78829CF6B84009A8F9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +200,7 @@
 				0F13A78129CF6B84009A8F9F /* AppDelegate.swift in Sources */,
 				0F13A78329CF6B84009A8F9F /* SceneDelegate.swift in Sources */,
 				0F13A79529CF6E07009A8F9F /* Constants.swift in Sources */,
+				0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +355,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +384,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
