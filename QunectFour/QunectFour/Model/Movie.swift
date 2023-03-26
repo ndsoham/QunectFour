@@ -11,19 +11,14 @@ import AVFoundation
 import AVKit
 import GroupActivities
 
-struct Movie: Hashable, Codable {
+struct Movie {
     var url: URL
     var title: String
+    var topLeft: URL
+    var topRight: URL
+    var bottomLeft: URL
+    var bottomRight: URL
+    var thumbnail: UIImage?
 }
 
-struct MovieWatchingActivity: GroupActivity {
-    let movie: Movie
-    
-    var metadata: GroupActivityMetadata {
-        var metadata = GroupActivityMetadata()
-        metadata.type = .watchTogether
-        metadata.fallbackURL = movie.url
-        metadata.title = movie.title
-        return metadata
-    }
-}
+

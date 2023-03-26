@@ -7,12 +7,11 @@
 
 import UIKit
 import AVFoundation
-
+import FirebaseCore
+import Firebase
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    var ref: DatabaseReference!
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let audioSession = AVAudioSession.sharedInstance()
         do {
@@ -20,6 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } catch {
             print("Setting category to AVAudioSession failed")
         }
+        FirebaseApp.configure()
+        ref = Database.database().reference()
         return true
     }
 

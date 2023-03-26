@@ -14,12 +14,34 @@
 		0F13A78A29CF6B86009A8F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78929CF6B86009A8F9F /* Assets.xcassets */; };
 		0F13A78D29CF6B86009A8F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78B29CF6B86009A8F9F /* LaunchScreen.storyboard */; };
 		0F13A79529CF6E07009A8F9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A79429CF6E07009A8F9F /* Constants.swift */; };
+		0F7703AD29CFABC900548DCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703AC29CFABC900548DCD /* GoogleService-Info.plist */; };
+		0F7703B029CFACBD00548DCD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703AF29CFACBD00548DCD /* FirebaseAnalytics */; };
+		0F7703B229CFACBD00548DCD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703B129CFACBD00548DCD /* FirebaseAnalyticsOnDeviceConversion */; };
+		0F7703B429CFACBD00548DCD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703B329CFACBD00548DCD /* FirebaseAnalyticsSwift */; };
+		0F7703B629CFACBD00548DCD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703B529CFACBD00548DCD /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		0F7703B829CFACBD00548DCD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703B729CFACBD00548DCD /* FirebaseDatabase */; };
+		0F7703BA29CFACBD00548DCD /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703B929CFACBD00548DCD /* FirebaseDatabaseSwift */; };
+		0F7703BC29CFACBD00548DCD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703BB29CFACBD00548DCD /* FirebaseStorage */; };
+		0F7703BE29CFACBD00548DCD /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 0F7703BD29CFACBD00548DCD /* FirebaseStorageCombine-Community */; };
+		0F7703C029CFDF3300548DCD /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703BF29CFDF3300548DCD /* PlaylistViewController.swift */; };
+		0F7703C229CFE19700548DCD /* The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703C129CFE19700548DCD /* The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4 */; };
+		0F7703C429CFE1A800548DCD /* FFTop-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703C329CFE1A800548DCD /* FFTop-Left.mp4 */; };
+		0F7703C629CFE20B00548DCD /* FFTop-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703C529CFE20B00548DCD /* FFTop-Right.mp4 */; };
+		0F7703C829CFE29600548DCD /* FFBottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703C729CFE29600548DCD /* FFBottom-Left.mp4 */; };
+		0F7703CA29CFE32400548DCD /* FFBottom-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703C929CFE32400548DCD /* FFBottom-Right.mp4 */; };
+		0F7703CC29CFE39D00548DCD /* Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703CB29CFE39D00548DCD /* Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4 */; };
+		0F7703CE29CFE40800548DCD /* SWTop-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703CD29CFE40800548DCD /* SWTop-Left.mp4 */; };
+		0F7703D029CFE4B000548DCD /* SWTop-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703CF29CFE4B000548DCD /* SWTop-Right.mp4 */; };
+		0F7703D429CFE59700548DCD /* SWBottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703D329CFE59700548DCD /* SWBottom-Left.mp4 */; };
+		0F7703D629CFE61400548DCD /* SWBottom-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703D529CFE61400548DCD /* SWBottom-Right.mp4 */; };
+		0F7703DB29CFE6A100548DCD /* HPBottom-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703D729CFE6A100548DCD /* HPBottom-Right.mp4 */; };
+		0F7703DC29CFE6A100548DCD /* HPTop-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703D829CFE6A100548DCD /* HPTop-Left.mp4 */; };
+		0F7703DD29CFE6A100548DCD /* HPTop-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703D929CFE6A100548DCD /* HPTop-Right.mp4 */; };
+		0F7703DE29CFE6A100548DCD /* HPBottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703DA29CFE6A100548DCD /* HPBottom-Left.mp4 */; };
+		0F7703E029CFEA0600548DCD /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703DF29CFEA0600548DCD /* PlaylistTableViewCell.swift */; };
+		0F7703E729CFF7B100548DCD /* OrientationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703E629CFF7B100548DCD /* OrientationCollectionViewCell.swift */; };
 		0FCA700929CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */; };
 		0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA700B29CF845600AFEF52 /* Movie.swift */; };
-		0FCA701129CF9A0000AFEF52 /* Bottom-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */; };
-		0FCA701229CF9A0000AFEF52 /* Top-Right.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */; };
-		0FCA701329CF9A0000AFEF52 /* Bottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */; };
-		0FCA701429CF9A0000AFEF52 /* Top-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,12 +54,26 @@
 		0F13A78C29CF6B86009A8F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F13A78E29CF6B86009A8F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F13A79429CF6E07009A8F9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0F7703AC29CFABC900548DCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0F7703BF29CFDF3300548DCD /* PlaylistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistViewController.swift; sourceTree = "<group>"; };
+		0F7703C129CFE19700548DCD /* The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4"; sourceTree = "<group>"; };
+		0F7703C329CFE1A800548DCD /* FFTop-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FFTop-Left.mp4"; sourceTree = "<group>"; };
+		0F7703C529CFE20B00548DCD /* FFTop-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FFTop-Right.mp4"; sourceTree = "<group>"; };
+		0F7703C729CFE29600548DCD /* FFBottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FFBottom-Left.mp4"; sourceTree = "<group>"; };
+		0F7703C929CFE32400548DCD /* FFBottom-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FFBottom-Right.mp4"; sourceTree = "<group>"; };
+		0F7703CB29CFE39D00548DCD /* Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4"; sourceTree = "<group>"; };
+		0F7703CD29CFE40800548DCD /* SWTop-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SWTop-Left.mp4"; sourceTree = "<group>"; };
+		0F7703CF29CFE4B000548DCD /* SWTop-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SWTop-Right.mp4"; sourceTree = "<group>"; };
+		0F7703D329CFE59700548DCD /* SWBottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SWBottom-Left.mp4"; sourceTree = "<group>"; };
+		0F7703D529CFE61400548DCD /* SWBottom-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SWBottom-Right.mp4"; sourceTree = "<group>"; };
+		0F7703D729CFE6A100548DCD /* HPBottom-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HPBottom-Right.mp4"; path = "Harry Potter/HPBottom-Right.mp4"; sourceTree = "<group>"; };
+		0F7703D829CFE6A100548DCD /* HPTop-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HPTop-Left.mp4"; path = "Harry Potter/HPTop-Left.mp4"; sourceTree = "<group>"; };
+		0F7703D929CFE6A100548DCD /* HPTop-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HPTop-Right.mp4"; path = "Harry Potter/HPTop-Right.mp4"; sourceTree = "<group>"; };
+		0F7703DA29CFE6A100548DCD /* HPBottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HPBottom-Left.mp4"; path = "Harry Potter/HPBottom-Left.mp4"; sourceTree = "<group>"; };
+		0F7703DF29CFEA0600548DCD /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
+		0F7703E629CFF7B100548DCD /* OrientationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4"; sourceTree = "<group>"; };
 		0FCA700B29CF845600AFEF52 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bottom-Right.mp4"; path = "Clips/Bottom-Right.mp4"; sourceTree = SOURCE_ROOT; };
-		0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Top-Right.mp4"; path = "Clips/Top-Right.mp4"; sourceTree = SOURCE_ROOT; };
-		0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Bottom-Left.mp4"; path = "Clips/Bottom-Left.mp4"; sourceTree = SOURCE_ROOT; };
-		0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Top-Left.mp4"; path = "Clips/Top-Left.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +81,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7703BA29CFACBD00548DCD /* FirebaseDatabaseSwift in Frameworks */,
+				0F7703B829CFACBD00548DCD /* FirebaseDatabase in Frameworks */,
+				0F7703BE29CFACBD00548DCD /* FirebaseStorageCombine-Community in Frameworks */,
+				0F7703B429CFACBD00548DCD /* FirebaseAnalyticsSwift in Frameworks */,
+				0F7703B029CFACBD00548DCD /* FirebaseAnalytics in Frameworks */,
+				0F7703BC29CFACBD00548DCD /* FirebaseStorage in Frameworks */,
+				0F7703B229CFACBD00548DCD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				0F7703B629CFACBD00548DCD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +121,22 @@
 				0F13A79629CF6E10009A8F9F /* Views */,
 				0F13A78929CF6B86009A8F9F /* Assets.xcassets */,
 				0F13A78E29CF6B86009A8F9F /* Info.plist */,
+				0F7703CB29CFE39D00548DCD /* Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4 */,
+				0F7703CD29CFE40800548DCD /* SWTop-Left.mp4 */,
+				0F7703CF29CFE4B000548DCD /* SWTop-Right.mp4 */,
+				0F7703D329CFE59700548DCD /* SWBottom-Left.mp4 */,
+				0F7703D529CFE61400548DCD /* SWBottom-Right.mp4 */,
+				0F7703C129CFE19700548DCD /* The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4 */,
+				0F7703C329CFE1A800548DCD /* FFTop-Left.mp4 */,
+				0F7703C529CFE20B00548DCD /* FFTop-Right.mp4 */,
+				0F7703C729CFE29600548DCD /* FFBottom-Left.mp4 */,
+				0F7703C929CFE32400548DCD /* FFBottom-Right.mp4 */,
 				0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */,
-				0FCA700F29CF9A0000AFEF52 /* Bottom-Left.mp4 */,
-				0FCA700D29CF9A0000AFEF52 /* Bottom-Right.mp4 */,
-				0FCA701029CF9A0000AFEF52 /* Top-Left.mp4 */,
-				0FCA700E29CF9A0000AFEF52 /* Top-Right.mp4 */,
+				0F7703DA29CFE6A100548DCD /* HPBottom-Left.mp4 */,
+				0F7703D729CFE6A100548DCD /* HPBottom-Right.mp4 */,
+				0F7703D829CFE6A100548DCD /* HPTop-Left.mp4 */,
+				0F7703D929CFE6A100548DCD /* HPTop-Right.mp4 */,
+				0F7703AC29CFABC900548DCD /* GoogleService-Info.plist */,
 			);
 			path = QunectFour;
 			sourceTree = "<group>";
@@ -91,6 +146,7 @@
 			children = (
 				0F13A78B29CF6B86009A8F9F /* LaunchScreen.storyboard */,
 				0F13A78629CF6B84009A8F9F /* Main.storyboard */,
+				0F7703E529CFF79400548DCD /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -99,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				0F13A78429CF6B84009A8F9F /* ViewController.swift */,
+				0F7703BF29CFDF3300548DCD /* PlaylistViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +167,15 @@
 				0F13A78229CF6B84009A8F9F /* SceneDelegate.swift */,
 			);
 			path = "Life Cycle";
+			sourceTree = "<group>";
+		};
+		0F7703E529CFF79400548DCD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0F7703DF29CFEA0600548DCD /* PlaylistTableViewCell.swift */,
+				0F7703E629CFF7B100548DCD /* OrientationCollectionViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		0FCA700A29CF844C00AFEF52 /* Model */ = {
@@ -136,6 +202,16 @@
 			dependencies = (
 			);
 			name = QunectFour;
+			packageProductDependencies = (
+				0F7703AF29CFACBD00548DCD /* FirebaseAnalytics */,
+				0F7703B129CFACBD00548DCD /* FirebaseAnalyticsOnDeviceConversion */,
+				0F7703B329CFACBD00548DCD /* FirebaseAnalyticsSwift */,
+				0F7703B529CFACBD00548DCD /* FirebaseAnalyticsWithoutAdIdSupport */,
+				0F7703B729CFACBD00548DCD /* FirebaseDatabase */,
+				0F7703B929CFACBD00548DCD /* FirebaseDatabaseSwift */,
+				0F7703BB29CFACBD00548DCD /* FirebaseStorage */,
+				0F7703BD29CFACBD00548DCD /* FirebaseStorageCombine-Community */,
+			);
 			productName = QunectFour;
 			productReference = 0F13A77D29CF6B84009A8F9F /* QunectFour.app */;
 			productType = "com.apple.product-type.application";
@@ -164,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 0F13A77429CF6B84009A8F9F;
+			packageReferences = (
+				0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 0F13A77E29CF6B84009A8F9F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -178,14 +257,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7703C629CFE20B00548DCD /* FFTop-Right.mp4 in Resources */,
+				0F7703D429CFE59700548DCD /* SWBottom-Left.mp4 in Resources */,
+				0F7703DD29CFE6A100548DCD /* HPTop-Right.mp4 in Resources */,
 				0F13A78D29CF6B86009A8F9F /* LaunchScreen.storyboard in Resources */,
+				0F7703CE29CFE40800548DCD /* SWTop-Left.mp4 in Resources */,
+				0F7703C229CFE19700548DCD /* The Fast and the Furious (2001) - Chasing the Killers Scene (9_10) _ Movieclips.mp4 in Resources */,
 				0F13A78A29CF6B86009A8F9F /* Assets.xcassets in Resources */,
-				0FCA701229CF9A0000AFEF52 /* Top-Right.mp4 in Resources */,
+				0F7703D029CFE4B000548DCD /* SWTop-Right.mp4 in Resources */,
+				0F7703DE29CFE6A100548DCD /* HPBottom-Left.mp4 in Resources */,
+				0F7703D629CFE61400548DCD /* SWBottom-Right.mp4 in Resources */,
+				0F7703DC29CFE6A100548DCD /* HPTop-Left.mp4 in Resources */,
+				0F7703C429CFE1A800548DCD /* FFTop-Left.mp4 in Resources */,
+				0F7703DB29CFE6A100548DCD /* HPBottom-Right.mp4 in Resources */,
+				0F7703AD29CFABC900548DCD /* GoogleService-Info.plist in Resources */,
+				0F7703C829CFE29600548DCD /* FFBottom-Left.mp4 in Resources */,
 				0FCA700929CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 in Resources */,
-				0FCA701129CF9A0000AFEF52 /* Bottom-Right.mp4 in Resources */,
-				0FCA701329CF9A0000AFEF52 /* Bottom-Left.mp4 in Resources */,
-				0FCA701429CF9A0000AFEF52 /* Top-Left.mp4 in Resources */,
+				0F7703CA29CFE32400548DCD /* FFBottom-Right.mp4 in Resources */,
 				0F13A78829CF6B84009A8F9F /* Main.storyboard in Resources */,
+				0F7703CC29CFE39D00548DCD /* Star Wars_ Revenge of the Sith - Obi Wan vs Anakin Fight Part 1 4k.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F13A78529CF6B84009A8F9F /* ViewController.swift in Sources */,
+				0F7703E729CFF7B100548DCD /* OrientationCollectionViewCell.swift in Sources */,
 				0F13A78129CF6B84009A8F9F /* AppDelegate.swift in Sources */,
+				0F7703E029CFEA0600548DCD /* PlaylistTableViewCell.swift in Sources */,
+				0F7703C029CFDF3300548DCD /* PlaylistViewController.swift in Sources */,
 				0F13A78329CF6B84009A8F9F /* SceneDelegate.swift in Sources */,
 				0F13A79529CF6E07009A8F9F /* Constants.swift in Sources */,
 				0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */,
@@ -420,6 +513,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F7703AF29CFACBD00548DCD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		0F7703B129CFACBD00548DCD /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		0F7703B329CFACBD00548DCD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		0F7703B529CFACBD00548DCD /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		0F7703B729CFACBD00548DCD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		0F7703B929CFACBD00548DCD /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		0F7703BB29CFACBD00548DCD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		0F7703BD29CFACBD00548DCD /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F7703AE29CFACBD00548DCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F13A77529CF6B84009A8F9F /* Project object */;
 }
