@@ -31,6 +31,7 @@ class PlaylistTableViewCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         safeMargins = self.contentView.safeAreaLayoutGuide
+        self.accessoryType = .disclosureIndicator
         if let image, let text, let safeMargins {
             setupUI(image: image, text: text, safeMargins: safeMargins)
         }

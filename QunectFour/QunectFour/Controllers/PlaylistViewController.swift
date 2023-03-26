@@ -39,6 +39,9 @@ extension PlaylistViewController {
             tableView.leadingAnchor.constraint(equalTo: safeMargins.leadingAnchor, constant: 10).isActive = true
             tableView.trailingAnchor.constraint(equalTo: safeMargins.trailingAnchor, constant: -10).isActive = true
             tableView.bottomAnchor.constraint(equalTo: safeMargins.bottomAnchor, constant: 10).isActive = true
+            tableView.allowsSelection = true
+            tableView.allowsMultipleSelection = false
+            
         }
     }
 }
@@ -56,6 +59,12 @@ extension PlaylistViewController: UITableViewDataSource, UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let toVC = QuadrantSelectorViewController()
+        toVC.movie = Constants.movies[indexPath.row]
+        navigationController?.pushViewController(toVC, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
 //MARK: - configure the navigation bar

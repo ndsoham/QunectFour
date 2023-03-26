@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0F13A78129CF6B84009A8F9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A78029CF6B84009A8F9F /* AppDelegate.swift */; };
 		0F13A78329CF6B84009A8F9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A78229CF6B84009A8F9F /* SceneDelegate.swift */; };
-		0F13A78529CF6B84009A8F9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A78429CF6B84009A8F9F /* ViewController.swift */; };
+		0F13A78529CF6B84009A8F9F /* PlaybackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F13A78429CF6B84009A8F9F /* PlaybackViewController.swift */; };
 		0F13A78829CF6B84009A8F9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78629CF6B84009A8F9F /* Main.storyboard */; };
 		0F13A78A29CF6B86009A8F9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78929CF6B86009A8F9F /* Assets.xcassets */; };
 		0F13A78D29CF6B86009A8F9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F13A78B29CF6B86009A8F9F /* LaunchScreen.storyboard */; };
@@ -40,6 +40,7 @@
 		0F7703DE29CFE6A100548DCD /* HPBottom-Left.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0F7703DA29CFE6A100548DCD /* HPBottom-Left.mp4 */; };
 		0F7703E029CFEA0600548DCD /* PlaylistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703DF29CFEA0600548DCD /* PlaylistTableViewCell.swift */; };
 		0F7703E729CFF7B100548DCD /* OrientationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703E629CFF7B100548DCD /* OrientationCollectionViewCell.swift */; };
+		0F7703E929CFFA6000548DCD /* QuadrantSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7703E829CFFA6000548DCD /* QuadrantSelectorViewController.swift */; };
 		0FCA700929CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */; };
 		0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCA700B29CF845600AFEF52 /* Movie.swift */; };
 /* End PBXBuildFile section */
@@ -48,7 +49,7 @@
 		0F13A77D29CF6B84009A8F9F /* QunectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QunectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F13A78029CF6B84009A8F9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F13A78229CF6B84009A8F9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F13A78429CF6B84009A8F9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F13A78429CF6B84009A8F9F /* PlaybackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackViewController.swift; sourceTree = "<group>"; };
 		0F13A78729CF6B84009A8F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F13A78929CF6B86009A8F9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F13A78C29CF6B86009A8F9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		0F7703DA29CFE6A100548DCD /* HPBottom-Left.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HPBottom-Left.mp4"; path = "Harry Potter/HPBottom-Left.mp4"; sourceTree = "<group>"; };
 		0F7703DF29CFEA0600548DCD /* PlaylistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistTableViewCell.swift; sourceTree = "<group>"; };
 		0F7703E629CFF7B100548DCD /* OrientationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationCollectionViewCell.swift; sourceTree = "<group>"; };
+		0F7703E829CFFA6000548DCD /* QuadrantSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrantSelectorViewController.swift; sourceTree = "<group>"; };
 		0FCA700829CF7D5800AFEF52 /* Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Harry Potter and the Deathly Hallows_ Part 2 (5_5) Movie CLIP - Harry vs. Voldemort (2011) HD.mp4"; sourceTree = "<group>"; };
 		0FCA700B29CF845600AFEF52 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,8 +156,9 @@
 		0F13A79729CF6E2C009A8F9F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				0F13A78429CF6B84009A8F9F /* ViewController.swift */,
+				0F13A78429CF6B84009A8F9F /* PlaybackViewController.swift */,
 				0F7703BF29CFDF3300548DCD /* PlaylistViewController.swift */,
+				0F7703E829CFFA6000548DCD /* QuadrantSelectorViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -286,7 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F13A78529CF6B84009A8F9F /* ViewController.swift in Sources */,
+				0F13A78529CF6B84009A8F9F /* PlaybackViewController.swift in Sources */,
 				0F7703E729CFF7B100548DCD /* OrientationCollectionViewCell.swift in Sources */,
 				0F13A78129CF6B84009A8F9F /* AppDelegate.swift in Sources */,
 				0F7703E029CFEA0600548DCD /* PlaylistTableViewCell.swift in Sources */,
@@ -294,6 +297,7 @@
 				0F13A78329CF6B84009A8F9F /* SceneDelegate.swift in Sources */,
 				0F13A79529CF6E07009A8F9F /* Constants.swift in Sources */,
 				0FCA700C29CF845600AFEF52 /* Movie.swift in Sources */,
+				0F7703E929CFFA6000548DCD /* QuadrantSelectorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +450,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,8 +479,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
