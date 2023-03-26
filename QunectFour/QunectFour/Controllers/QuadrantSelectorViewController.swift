@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-
+import Firebase
 class QuadrantSelectorViewController: UIViewController {
     // attributes
     var movie: Movie?
@@ -19,6 +19,9 @@ class QuadrantSelectorViewController: UIViewController {
         layout.minimumLineSpacing = 0
         layout.minimumInteritemSpacing = 0
         return layout
+    }
+    var ref: DatabaseReference {
+        return (UIApplication.shared.delegate as! AppDelegate).ref
     }
     // life cycle
     override func viewDidLoad() {
@@ -58,10 +61,14 @@ extension QuadrantSelectorViewController: UICollectionViewDelegate, UICollection
         let toVC = PlaybackViewController()
         toVC.quadrant = Constants.quadrants[indexPath.row]
         toVC.movie = self.movie
+        setPlayingToFalseByDefault()
         navigationController?.pushViewController(toVC, animated: true)
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: self.view.frame.width/2, height: self.view.frame.height/3)
+    }
+    func setPlayingToFalseByDefault() {
+        self.ref.setValue(["play": false, "timestamp":0])
     }
     
 }

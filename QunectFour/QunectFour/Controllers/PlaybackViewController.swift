@@ -58,18 +58,12 @@ extension PlaybackViewController {
         // create a new av player view controller and pass in a reference to the player
         let playerController = AVPlayerViewController()
         playerController.player = player
-        // hide controls except for master
+        // use tap gesture for purposes
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTap))
+        playerController.view.addGestureRecognizer(tapGesture)
         if let player {
             self.present(playerController, animated: true) {
-                if (self.quadrant == "👑") {
-                    playerController.showsPlaybackControls = true
-                    let _ = player.observe(\.rate) { player, value in
-                        print(value)
-                    }
-                    self.play()
-                } else {
-                    playerController.showsPlaybackControls = false
-                }
+                playerController.showsPlaybackControls = false
                 self.listen(player: player)
             }
         }
@@ -102,6 +96,19 @@ extension PlaybackViewController {
     @objc func pause() {
         self.ref.setValue(["play": false, "timestamp":0])
     }
+    // handle the gesture recognizer
+    @objc func handleTap(sender: UITapGestureRecognizer) {
+        if sender.state == .ended  && self.quadrant == "👑" {
+            if (player?.rate == 0) {
+                self.play()
+                player?.play()
+            } else {
+                self.pause()
+                player?.pause()
+            }
+        }
+    }
+ 
 }
 
 //MARK: - Setup UI
